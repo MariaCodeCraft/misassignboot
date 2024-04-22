@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your custom CSS -->
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="360_F_334535136_vvbWaKEpsHIMS4dpJUxgXZL6clQX7VGs.jpg" alt="MyWebsite Logo" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://example.com">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://example.com">Link 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://example.com">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="hand-drawn-flat-design-omnichannel-illustration_23-2149344703.jpg.avif" class="d-block w-100" style="height: 400px; object-fit: contain;" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="1*iAu65xDmvpVdBJgps6EDEw.png" class="d-block w-100" style="height: 400px; object-fit: contain;" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="istockphoto-1428709516-170667a.webp" class="d-block w-100" style="height: 400px; object-fit: contain;" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="woman-happy-with-shopping-glamour-vector-illustration-design_319053-112.jpg.avif" class="d-block w-100" style="height: 400px; object-fit: contain;" alt="Slide 4">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+    <!-- Product Cards -->
+    <div class="container my-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images-3.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h1 class="card-title">Smart LED TV</h1>
+                        <p class="card-text">Description: Immerse yourself in stunning visuals with our Smart LED TV. Featuring a sleek design and advanced technology, this TV delivers vibrant colors, sharp contrast, and smooth motion for an exceptional viewing experience. With built-in smart features, you can stream your favorite movies and TV shows, browse the web, and access a variety of apps right from your couch. <br><h4>Price: $599.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="61fUkamTT+L._AC_UL1024_.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h1 class="card-title">Women's Floral Print Dress</h1>
+                        <p class="card-text">Description: Elevate your wardrobe with our beautiful floral print dress. Made from high-quality fabric, this dress features a flattering silhouette and vibrant floral patterns that are perfect for any occasion. Whether you're attending a garden party or a brunch date, you'll look effortlessly chic in this stylish dress.<br><h4>Price: $49.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images-4.jpeg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h1 class="card-title">Wireless Bluetooth Earbuds</h1>
+                        <p class="card-text">Description: Enjoy your favorite music on the go with our wireless Bluetooth earbuds. These earbuds offer crystal-clear sound quality and a comfortable fit, making them ideal for workouts, commutes, and everyday use. With convenient touch controls and a portable charging case, you can easily take your music wherever you go.<br> <h4>Price: $79.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="16fe82d58237dbb09a52f5224f0837dd.jpg_750x750.jpg_.webp" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h1 class="card-title">Kids' Educational Building Blocks</h1>
+                        <p class="card-text">  Description: Spark your child's creativity with our educational building blocks. These colorful blocks are designed to encourage imagination and develop fine motor skills. With endless possibilities for building and creating, they provide hours of fun and learning for kids of all ages.<br><h4>Price: $24.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="best wallets for men site.jpeg.webp" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h1 class="card-title"> Men's Classic Leather Wallet</h1>
+                        <p class="card-text">Description: Keep your essentials organized in style with our classic leather wallet. Crafted from genuine leather, this wallet is durable and timeless. With multiple card slots, a bill compartment, and a sleek design, it's the perfect accessory for any man on the go. <br> <h4>Price: $39.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="Stainless_Steel_High_Carbon_Colorful_Kit-Non_Brand-ff350-312983.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h1 class="card-title">Stainless Steel Kitchen Knife Set</h1>
+                        <p class="card-text"> Description: Upgrade your culinary skills with our stainless steel knife set. This set includes all the essential knives you need for slicing, dicing, and chopping like a pro. With sharp blades and comfortable handles, these knives make meal prep a breeze.<br><h4>Price: $59.99</h4></p>
+                        <button class="btn btn-primary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>OnlineShopping &copy; 2024</p>
+                    <p>Contact: onlineshopping123@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
